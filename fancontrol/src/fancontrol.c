@@ -10,7 +10,7 @@
 
 // 定义全局变量
 char thermal_file[MAX_LENGTH] = "/sys/devices/virtual/thermal/thermal_zone0/temp";      // -T
-char fan_file[MAX_LENGTH] = "/sys/devices/platform/pwm-fan/hwmon/hwmon0/pwm1";   // -F
+char fan_file[MAX_LENGTH] = "/sys/devices/platform/pwm-fan/hwmon/hwmon1/pwm1";   // -F
 
 int start_speed = 35;   // -s
 int start_temp = 45;    // -t
